@@ -25,15 +25,16 @@
   flex-direction: column;
 }
 
-.i-left-wrapper .colz .colz-icon i {
+.i-left-wrapper .colz .colz-icon i{
   color: crimson;
-  padding: 8px;
-  padding-left: 0px;
+  padding: 3px;
+  margin-left: -2px;
 }
 
-.colz .colz-icon i:hover {
+.colz .colz-icon i:hover{
   transform: scale(1.5);
 }
+
 
 .i-name {
   font-size: 60px;
@@ -101,6 +102,7 @@
   .i {
     flex-direction: column;
   }
+  
 
   .i-left-wrapper {
     padding: 10px;
