@@ -210,7 +210,7 @@
 .c {
   height: 100vh;
   position: relative;
-  font-family: Poppins, "san-serif";
+  font-family: "Poppins", sans-serif;
 }
 
 .c-bg {
