@@ -136,7 +136,7 @@ input:focus, textarea:focus {
 
 
   .i-left-wrapper {
-    padding: 10px;
+    /* padding: 10px; */
     align-items: center;
     text-align: center;
     justify-content: center;
