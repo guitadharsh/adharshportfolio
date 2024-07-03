@@ -2,162 +2,278 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Adharsh Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="google-site-verification" content="Qt6xouVT_5cBwoFCsHRmWrP1tk_wojSne9rhP8EHofU" />
+    <meta name="keywords" content="web developer adharsh, website solution adharsh, adharsh, Adharsh D Web developer, React Adharsh">
+    <meta name="description" content="Full stack developer skilled in Next.js, React.js, Express, and MongoDB. Expert in building scalable and user-friendly web applications"> 
+    <link rel="canonical" href="https://adharshd.in/">
+    
+    
+    <title>Adharsh D Portfolio</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
 
-
-
-  <!-- <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    /> -->
-  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-  <!-- Home Section -->
+    <header>
+        <a href="" class="logo-holder">
+            LOGO
+        </a>
+        <nav>
+            <ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#exp">Experince</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a class="mobile-toggle" onClick="toggleMenuClick();">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                    width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14" />
+                </svg>
+            </a>
+        </nav>
+    </header>
 
-  <div class="i">
-    <div class="i-left">
-      <div class="i-left-wrapper">
-        <div class="colz">
-          <div class="colz-icon">
-            <a href="https://www.linkedin.com/in/adharsh-d-792804219/">
-              <i class="fa-brands fa-linkedin"></i></a>
+    <main>
+        <section class="hero container">
+            <div class="hero-blue">
+                <div>
+                    <h1>
+                        <small>Hi I'm</small>Adharsh D
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic exercitationem animi cum natus in
+                        tenetur cupiditate, distinctio architecto quaerat quo.
+                    </p>
+                    <div class="call-to-action">
+                        <a href="#" class="button black">Resume</a>
+                        <a href="#" class="button white">Connect</a>
+                    </div>
+                    <div class="social-links">
+                        <a href=""><svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                viewBox="0 0 24 24">
+                                <path fill-rule="evenodd"
+                                    d="M12.51 8.796v1.697a3.738 3.738 0 0 1 3.288-1.684c3.455 0 4.202 2.16 4.202 4.97V19.5h-3.2v-5.072c0-1.21-.244-2.766-2.128-2.766-1.827 0-2.139 1.317-2.139 2.676V19.5h-3.19V8.796h3.168ZM7.2 6.106a1.61 1.61 0 0 1-.988 1.483 1.595 1.595 0 0 1-1.743-.348A1.607 1.607 0 0 1 5.6 4.5a1.601 1.601 0 0 1 1.6 1.606Z"
+                                    clip-rule="evenodd" />
+                                <path d="M7.2 8.809H4V19.5h3.2V8.809Z" />
+                            </svg>
+                        </a>
 
-            <a href="https://github.com/guitadharsh">
-              <i class="fa-brands fa-github"></i></a>
+                        <a href="">
+                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                viewBox="0 0 24 24">
+                                <path fill-rule="evenodd"
+                                    d="M12.006 2a9.847 9.847 0 0 0-6.484 2.44 10.32 10.32 0 0 0-3.393 6.17 10.48 10.48 0 0 0 1.317 6.955 10.045 10.045 0 0 0 5.4 4.418c.504.095.683-.223.683-.494 0-.245-.01-1.052-.014-1.908-2.78.62-3.366-1.21-3.366-1.21a2.711 2.711 0 0 0-1.11-1.5c-.907-.637.07-.621.07-.621.317.044.62.163.885.346.266.183.487.426.647.71.135.253.318.476.538.655a2.079 2.079 0 0 0 2.37.196c.045-.52.27-1.006.635-1.37-2.219-.259-4.554-1.138-4.554-5.07a4.022 4.022 0 0 1 1.031-2.75 3.77 3.77 0 0 1 .096-2.713s.839-.275 2.749 1.05a9.26 9.26 0 0 1 5.004 0c1.906-1.325 2.74-1.05 2.74-1.05.37.858.406 1.828.101 2.713a4.017 4.017 0 0 1 1.029 2.75c0 3.939-2.339 4.805-4.564 5.058a2.471 2.471 0 0 1 .679 1.897c0 1.372-.012 2.477-.012 2.814 0 .272.18.592.687.492a10.05 10.05 0 0 0 5.388-4.421 10.473 10.473 0 0 0 1.313-6.948 10.32 10.32 0 0 0-3.39-6.165A9.847 9.847 0 0 0 12.007 2Z"
+                                    clip-rule="evenodd" />
+                            </svg>
 
-            <a href="https://stackoverflow.com/users/16612350/guit-adharsh">
-              <i class="fa-brands fa-stack-overflow"></i></a>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-yellow">
+                <!-- <img src="./assets/hero-image.png" alt="Adharsh Hero Image" width="100%"> -->
+            </div>
+        </section>
 
-            <a href="https://www.facebook.com/adharshdickson.adhu/">
-              <i class="fa-brands fa-facebook"></i></a>
+        <section class="logos container">
+            <div class="marquee">
+                <div class="track">
+                    <img src="./assets/github.png" alt="" width="128">
+                    <img src="./assets/html.png" alt="" width="128">
+                    <img src="./assets/javascript.png" alt="" width="128">
+                    <img src="./assets/linkedin.png" alt="" width="128">
+                    <img src="./assets/nextjs.png" alt="" width="128">
+                    <img src="./assets/python.png" alt="" width="128">
+                    <img src="./assets/react.png" alt="" width="128">
+                    <img src="./assets/sass.png" alt="" width="128">
+                    <img src="./assets/vscode.png" alt="" width="128">
+                    <img src="./assets/github.png" alt="" width="128">
+                    <img src="./assets/html.png" alt="" width="128">
+                    <img src="./assets/javascript.png" alt="" width="128">
+                    <img src="./assets/linkedin.png" alt="" width="128">
+                    <img src="./assets/nextjs.png" alt="" width="128">
+                    <img src="./assets/python.png" alt="" width="128">
+                    <img src="./assets/react.png" alt="" width="128">
+                    <img src="./assets/sass.png" alt="" width="128">
+                    <img src="./assets/vscode.png" alt="" width="128">
+                </div>
+            </div>
+        </section>
 
-            <a href="https://www.instagram.com/relativerelative/">
-              <i class="fa-brands fa-instagram"></i></a>
+        <section id="skills"  class="skills container">
+            <h2>
+                <small>About Me</small>
+                Skills
+            </h2>
 
-            <a href="https://www.youtube.com/channel/UCbcaRNlj9AgqJWL0nboxbhA">
-              <i class="fa-brands fa-youtube"></i></a>
+            <div class="holder-blue">
+                <div class="left-column">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>javascript</li>
+                        <li>React</li>
+                    </ul>
 
-          </div>
-        </div>
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>MongoDB</li>
+                        <li>Express.js</li>
+                        <li>Typescript</li>
+                    </ul>
+                </div>
+                <div class="right-column">
+                    <h3>A bit about me</h3>
+                    <p>I'm Adharsh Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum explicabo ipsa,
+                        corrupti quo modi iste in consequuntur sed vitae recusandae obcaecati praesentium provident,
+                        quidem aperiam quasi dignissimos consequatur illum architecto! Sed, maiores. Dolore inventore
+                        autem amet sit hic nisi Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio
+                        sapiente magnam tempora officia rem magni repudiandae dolor illum velit explicabo?</p>
+                </div>
+            </div>
+        </section>
 
-        <h2 class="i-intro">Hi there, I am</h2>
-        <h1 class="i-name">Adharsh</h1>
-        <div class="i-title">
-          <div class="i-title-wrapper">
-            <div class="i-title-item">Front-end Dev</div>
-            <div class="i-title-item">React</div>
-            <div class="i-title-item">Express</div>
-            <div class="i-title-item">javascript</div>
-            <div class="i-title-item">MongoDB</div>
-            <div class="i-title-item">Redux</div>
-            <div class="i-title-item">Node JS</div>
-            <div class="i-title-item">Typescript</div>
-            <div class="i-title-item">Deck.Gl</div>
-            <div class="i-title-item">Back-end Dev</div>
-          </div>
-        </div>
-        <div class="i-desc">
-          <p>Full Stack Developer | MERN Stack Enthusiast | Crafting Web Experiences</p>
-        </div>
-      </div>
-    </div>
-    <div class="i-right">
-      <div class="i-bg">
-        <img src="profile pic.png" alt="Image failed to Load" class="i-img" />
-      </div>
-    </div>
-  </div>
+        <section id="exp" class="work-experience container">
+            <h2>
+                <small>Recent</small>
+                Work Experince
+            </h2>
 
-  <!-- Home Section Ends -->
+            <div class="jobs">
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./assets/workplace-1.jpg" alt="" width="100%">
+                            <figcaption>
+                                Workplace - 1
+                            </figcaption>
+                        </div>
+                    </figure>
+                    <h3>Workplace-1</h3>
+                    <div>2000-2020</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, odio!</p>
+                </article>
 
-  <!-- About Me Section starts here -->
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./assets/workplace-2.jpg" alt="" width="100%">
+                            <figcaption>
+                                Workplace - 2
+                            </figcaption>
+                        </div>
+                    </figure>
+                    <h3>Workplace-2</h3>
+                    <div>2000-2020</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, odio!</p>
+                </article>
 
-  <div class="a" id="about">
-    <div class="a-left">
-      <div class="a-card bg"></div>
-      <div class="a-card">
-        <img src="aboutme.jpg" alt="Image not loaded" class="a-img" />
-      </div>
-    </div>
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./assets/workplace-3.jpg" alt="" width="100%">
+                            <figcaption>
+                                Workplace - 3
+                            </figcaption>
+                        </div>
+                    </figure>
+                    <h3>Workplace-3</h3>
+                    <div>2000-2020</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, odio!</p>
+                </article>
+            </div>
+        </section>
 
-    <div class="a-right">
-      <h1 class="a-title">About Me</h1>
-      <p clase="a-sub">
-       I am a self-taught web developer, specializing in front-end development. Currently, I work as a MERN Stack Developer at SciPy Technologies.
-      </p>
+        <section id="projects" class="bento container">
+            <h2>
+                <small>Previous</small>
+                Completed Projects
+            </h2>
 
-      <p class="a-desc">
-        "Welcome to my portfolio! 🚀 I am a passionate Full Stack Developer proficient in the MERN stack — MongoDB, Express.js, React, and Node.js. With a keen eye for detail and a dedication to creating seamless and engaging user experiences, I bring creativity and functionality together in my projects. Explore my portfolio to discover the dynamic web applications and innovative solutions I've crafted. Let's build something extraordinary together!"
-      </p>
-    </div>
-  </div>
+            <div class="bento-grid">
+                <div class="bento-item">
+                    <img src="./assets/bento-1.jpg" alt="" width="100%">
+                </div>
+                <div class="bento-item">
+                    <img src="./assets/bento-2.jpg" alt="" width="100%">
+                </div>
+                <div class="bento-item">
+                    <img src="./assets/bento-3.jpg" alt="" width="100%">
+                </div>
+                <div class="bento-item">
+                    <img src="./assets/bento-4.jpg" alt="" width="100%">
+                </div>
+                <div class="bento-item">
+                    <img src="./assets/bento-5.jpg" alt="" width="100%">
+                </div>
+                <div class="bento-item">
+                    <img src="./assets/bento-6.jpg" alt="" width="100%">
+                </div>
+            </div>
+        </section>
 
-  <!-- About Me section ends -->
+        <!-- <section class="chatbot container">
+            <h2>
+                <small>Talk to me</small>
+                Chatbot
+            </h2>
 
-  <!-- Contact Me section starts here -->
+            <div class="chat-blue">
+                <div class="chat-info">
+                    <p>Azure AI Chabot</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, deserunt optio beatae error
+                        odit rem aperiam ipsa iusto cupiditate. Impedit?</p>
+                </div>
 
-  <div class="c" id="contact">
-    <div class="c-bg"></div>
-    <div class="c-wrapper">
-      <div class="c-left">
-        <h1 class="c-title">feel free to contact Me</h1>
-        <h6 class="c-subtitle">Lets discuss your project !</h6>
+                <div class="chat-box">
+                    <div class="scroll-area">
+                        <ul id="chat-log">
+                            <li>
+                                <span class="avatar bot">AI</span>
+                                <div class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe?
+                                </div>
+                            </li>
 
-        <div class="c-info">
-          <div class="c-info-item">
-            <img class="c-icon" src="Phone.png" alt="" />
-            +91 813-903-1990
-          </div>
+                            <li>
+                                <span class="avatar bot">AI</span>
+                                <div class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe?
+                                </div>
+                            </li>
 
-          <div class="c-info-item">
-            <img class="c-icon" src="Email.png" alt="" />
-            adharshd100@gmail.com
-          </div>
-
-          <div class="c-info-item">
-            <img class="c-icon" src="Address.png" alt="" />
-            Gracevilla Kuthirakalam P.O vellanad Trivandrum 695543
-          </div>
-        </div>
-      </div>
-      <div class="c-right">
-        <p class="c-desc">
-          <b>What's your story?</b> Get in touch with me let me know how can I
-          help you
-        </p>
-
-        <form method="POST" action="https://formsubmit.co/adharshd100@gmail.com">
-          <input type="text" placeholder="Name" name="name" />
-          <input type="text" placeholder="Email" name="email" />
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_next" value="https://guitadharsh.github.io/adharshportfolio/thanks.html">
-          <textarea rows="5" placeholder="Message.." name="message"></textarea>
-          <button>Send</button>
-        </form>
-      </div>
-    </div>
-  </div>
-
-  <!-- Contact Me section endass-->
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-
-
+                            <li>
+                                <span class="avatar bot">AI</span>
+                                <div class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe?
+                                </div>
+                                <div class="chat-message"><input type="text"
+                                        placeholder="Ask me anything about Adharsh"></div>
+                                <button class="button">Send</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+    </main>
 </body>
 
 </html>
